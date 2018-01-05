@@ -38,7 +38,7 @@ const parseRepoInfo = $ => (index, repoNode) => {
 
 exports.fetchTrending = async ({ language = '', since = 'daily' }) => {
   const trendingUrl = `${GITHUB_HOST}/trending/${language}?since=${since}`
-  fetch(trendingUrl)
+  return fetch(trendingUrl)
     .then(res => res.text())
     .then(parseReposList)
 }

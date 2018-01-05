@@ -10,21 +10,19 @@
     "type": "git",
     "url": "git+ssh://git@github.com/zephyrpersonal/github-trending-crawler.git"
   },
-  "keywords": [
-    "github",
-    "spider",
-    "crawler",
-    "node",
-    "koa"
-  ],
+  "keywords": ["github", "spider", "crawler", "node", "koa"],
   "author": "zephyr",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zephyrpersonal/github-trending-crawler/issues"
   },
-  "homepage": "https://github.com/zephyrpersonal/github-trending-crawler#readme",
+  "homepage":
+    "https://github.com/zephyrpersonal/github-trending-crawler#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "node-fetch": "^1.7.3"
+  },
+  "engines": {
+    "node": "> 7.0"
   }
 }
