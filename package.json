@@ -1,0 +1,30 @@
+{
+  "name": "github-trending-crawler",
+  "version": "1.0.0",
+  "description": "transform github-trending repos to json data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zephyrpersonal/github-trending-crawler.git"
+  },
+  "keywords": [
+    "github",
+    "spider",
+    "crawler",
+    "node",
+    "koa"
+  ],
+  "author": "zephyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zephyrpersonal/github-trending-crawler/issues"
+  },
+  "homepage": "https://github.com/zephyrpersonal/github-trending-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^1.7.3"
+  }
+}
